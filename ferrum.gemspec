@@ -1,8 +1,8 @@
-# -*- encoding: utf-8 -*-
 require File.expand_path('../lib/ferrum/version', __FILE__)
 
 Gem::Specification.new do |gem|
   gem.add_development_dependency 'rake', '~> 0.9'
+  gem.add_development_dependency 'rspec', ">= 2.0.0"
 
   gem.authors       = ["Blaine Schanfeldt"]
   gem.email         = ["ferrum@blaines.me"]
