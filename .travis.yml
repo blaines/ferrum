@@ -1,0 +1,10 @@
+language: ruby
+
+notifications:
+  email:
+    - travis-ci+ferrum@blaines.me
+
+rvm:
+  - 1.8.7
+  - 1.9.2
+  - 1.9.3
